@@ -12,13 +12,13 @@ body {
   justify-content: center;
 }
 
-#container {
+#header {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#navbar {
+#descriptionList {
   flex-grow: 1;
   max-height: 10%;
   min-height: 40px;
@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-#navbar div {
+#descriptionList dt {
   padding: 5px;
 }
 
@@ -37,7 +37,7 @@ body {
   justify-content: space-evenly;
 }
 
-#colors-list div {
+#colors-list li {
   height: 100px;
   width: 100px;
   border-radius: 50%;
