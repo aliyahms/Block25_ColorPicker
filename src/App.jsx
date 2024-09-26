@@ -22,18 +22,9 @@ const App = () => {
         </dl>
       </header>
       <menu id="colors-list">
-        <Swatch
-          color="yellow"
-          setSelectedColorSelectedColor={setSelectedColor}
-        />
-        <Swatch
-          color="green"
-          setSelectedColoretSelectedColor={setSelectedColor}
-        />
-        <Swatch
-          color="black"
-          setSelectedColoretSelectedColor={setSelectedColor}
-        />
+        <Swatch color="yellow" setSelectedColor={setSelectedColor} />
+        <Swatch color="green" setSelectedColor={setSelectedColor} />
+        <Swatch color="black" setSelectedColor={setSelectedColor} />
       </menu>
     </>
   );

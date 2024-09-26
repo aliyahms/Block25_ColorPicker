@@ -43,6 +43,8 @@ body {
   border-radius: 50%;
   margin-top: 40px;
   transition: all 1s ease;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 .selected {
